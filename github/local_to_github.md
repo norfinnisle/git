@@ -1,5 +1,5 @@
 ローカルファイルをGitHubにアップロードする手順
-===
+========================================
 
 ## リモートリポジトリ作成
 
@@ -20,9 +20,6 @@ git init
 ```
 git config user.name xxxx
 git config user.email xxxx@xxxx.com
-    or
-git config --local user.name xxxx
-git config --local user.email xxxx@xxxx.com
 ```
 
 ### 作業を登録
@@ -53,6 +50,33 @@ git push -u origin main
 
 ---
 
-## リモートリポジトリでREADMEなどを作成してしまった場合
+クローンしてから push する方法
+===========================
 
-...
+## リモートリポジトリをクローン
+
+```
+cd クローンを置きたい場所
+git clone リポジトリURL
+```
+
+## 作成されたローカルリポジトリに移動
+
+### 作業者を登録（リポジトリ毎に分けたい場合）
+
+```
+cd ローカルリポジトリ
+
+git config user.name xxxx
+git config user.email xxxx@xxxx.com
+```
+
+### 作業を登録
+
+元々作業していたデータがあるなら、クローンしたところに格納する
+
+```
+git add .
+git commit -m "update"
+git push
+```

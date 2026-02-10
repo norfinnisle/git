@@ -16,6 +16,12 @@ git config --global user.email 'xxxxxx@example.com'
 git config --global -l
 ```
 
+### Display Japanese file names
+
+```
+git config --global core.quotepath false
+```
+
 ### Change default branch name
 
 ```
@@ -26,12 +32,6 @@ git config --global init.defaultBranch main
 
 ```
 git config --global color.ui auto
-```
-
-### Use uppercase and lowercase as different file names
-
-```
-git config --global core.ignorecase false
 ```
 
 ### Global gitignore
