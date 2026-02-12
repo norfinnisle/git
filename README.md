@@ -7,11 +7,11 @@ git push
 
 # INDEX
 
-## Setup
+## ◯ Setup
 
 * https://github.com/norfinnisle/git/blob/main/git/git.md
 
-## Github
+## ◯ Github
 
 ### ローカルファイルをGitHubにアップロードする手順
 * https://github.com/norfinnisle/git/blob/main/github/local_to_github.md

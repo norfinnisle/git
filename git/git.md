@@ -1,11 +1,11 @@
 Git
 ===
 
-## Install
+## ◯ Install
 
 https://git-scm.com/install/mac
 
-## Setup
+## ◯ Setup
 
 ### Global user
 
@@ -48,7 +48,7 @@ node_modules/
 
 ---
 
-## Commands
+## ◯ Commands
 
 ### Clone repository
 ```git clone https://github.com/xxxx/xxxx.git```
@@ -94,19 +94,7 @@ git checkout main
 git merge develop
 ```
 
-#### __Ex__
-```
-git add --all
-git commit -m "modified"
-git push -u origin develop
-git checkout main1
-git merge develop
-git push -u origin main
-git checkout develop
-git branch
-```
-
-## Rebase
+## ◯ Rebase
 ```
 git checkout main
 git pull origin main
