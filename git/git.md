@@ -1,10 +1,6 @@
 Git
 ===
 
-## ◯ Install
-
-https://git-scm.com/install/mac
-
 ## ◯ Setup
 
 ### Global user
