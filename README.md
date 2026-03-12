@@ -1,7 +1,7 @@
 ```
 git st
 git adl
-git cm "update"
+git cmu
 git push
 ```
 
